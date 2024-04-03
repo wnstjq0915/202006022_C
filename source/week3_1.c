@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+// <stdlib.h>는 c언어의 기본적인 라이브러리를 이용하고 싶을 때 사용
+// malloc(), calloc(), realloc(), free() 등의 함수 사용가능
 
 void main()
 {

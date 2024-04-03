@@ -1,3 +1,6 @@
+// 온라인 c컴파일러
+// https://www.programiz.com/c-programming/online-compiler/
+
 /* 두 개의 숫자의 합을 계산하는 프로그램 */
 #include <stdio.h> // 전처리 코드
 
