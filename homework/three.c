@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int absolute(int num);
-
 int main(){
 
     printf("한 변의 길이가 x인 마름모를 출력하려 합니다.\n");
@@ -14,7 +12,12 @@ int main(){
     int blank;
 
     for(int i=1; i<num*2; i++){
-        blank = absolute(num-i);
+
+        blank = num-i;
+        if(blank < 0){
+            blank *= -1;
+        }
+
         for(int j=0; j<blank; j++){
             printf(" ");
         }
@@ -26,11 +29,4 @@ int main(){
         printf("\n");
     }
     return 0;
-}
-
-int absolute(int num){
-    if(num < 0){
-        return -num;
-    }
-    return num;
 }
