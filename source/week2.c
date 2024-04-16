@@ -2,9 +2,11 @@
 // https://www.programiz.com/c-programming/online-compiler/
 
 /* 두 개의 숫자의 합을 계산하는 프로그램 */
-#include <stdio.h> // 전처리 코드
+#include <stdio.h> // 전처리 코드 // 특정함수 이용을 위한 헤더
+// #include "" -> ""로 되어 있으면 프로그래머가 직접 정의한 헤더파일
+// "" 안에는 사용자가 정의한 헤더 파일의 경로(절대, 상대경로 모두 가능)
 
-#define X 10
+#define X 10 // 기호상수 정의
 // 기호상수화. X라는 상수(바뀌지 않는 값)를 만듦.
 // main이나 다른 함수에서 상수X 이용가능.
 // 전처리 부분에서 이용됨.
