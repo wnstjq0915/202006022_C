@@ -15,6 +15,9 @@ int main(){
 
     for(int cnt = 0; cnt < 9; cnt++){
         printf("sa[%d] : %c\t\t", cnt, sa[cnt]);
+
+        // 대괄호 안 쓸 때의 배열값 접근과 똑같이 하면 됨.
+        // printf("sa[%d] : %c\t\t", cnt, *(sa+cnt));
         printf("*(ps + %d) : %c\n", cnt, *(ps+cnt));
     }
 
